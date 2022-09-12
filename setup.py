@@ -15,7 +15,7 @@ requirements = [
     "tqdm",
     "torch",
     "torchvision",
-    "tensorflow==1.15",
+    "tensorflow",
     "keras==2.3.1",
     "protobuf<4",  # keras import fails on newer protobuf http://braintree.mit.edu:8080/job/unittest_model_tools/132/
     "scikit-learn",
