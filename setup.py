@@ -7,15 +7,8 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    "brainio @ git+https://github.com/brain-score/brainio",
-    "brain-score @ git+https://github.com/brain-score/brain-score",
-    "h5py",
-    "Pillow",
-    "tqdm",
-    "torch",
-    "torchvision",
-    "protobuf<4",  # keras import fails on newer protobuf http://braintree.mit.edu:8080/job/unittest_model_tools/132/
-    "result_caching @ git+https://github.com/brain-score/result_caching",
+    # "brainio @ git+https://github.com/brain-score/brainio",
+    #"result_caching @ git+https://github.com/brain-score/result_caching",
 ]
 
 setup(
